@@ -1,0 +1,56 @@
+//1
+void main() {
+
+  String name_user = "Giovanni";
+  String nickname_user = "Laner";
+  int idade = 23;
+  
+  print ("Nome: $name_user\n"
+         "Sobrenome: $nickname_user\n"
+         "Idade: $idade");
+}
+
+//2
+void main() {
+  
+  double entrada_cine = 12.50;
+  double num_entrada = 4;
+  
+  print(entrada_cine * num_entrada);
+}
+
+//3
+void main() {
+  double base_maior = 12;
+  double base_menor = 6;
+  double altura = 5;
+  double constante = 2;
+  
+  print(((base_maior + base_menor) * altura) / constante);
+}
+
+//4
+void main() {
+  double ladoA = 3;
+  double ladoB = 5;
+  
+  print(ladoA * ladoB);
+}
+
+//5
+void main() {
+  
+  String nome = "Giovanni";
+  String sobrenome = "Laner";
+  
+  if(nome == "Giovanni") {
+    print("É a mesma pessoa");
+  }else{
+    print("Os nomes não conferem");
+  } 
+  if(sobrenome == "Laner") {
+    print("É a mesma pessoa");
+  }else{
+    print("Os nomes não conferem");
+  }
+}
